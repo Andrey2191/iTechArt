@@ -19,6 +19,27 @@
   justify-content: space-between;
   align-items: center;
 }
+.nav-btn {
+  display: none;
+}
+
+.nav-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.nav-btn-burger {
+  margin-bottom: 5px;
+  width: 50px;
+  height: 6px;
+  background: rgb(134, 134, 134);
+  border-radius: 5px;
+}
 
 .nav__logo-title {
   font-weight: 400;
