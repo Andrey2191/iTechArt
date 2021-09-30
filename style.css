@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  /* background-color: aqua; */
+}
+
+.nav {
+  margin-right: 36px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo-title {
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgb(70, 70, 70);
+}
+
+.nav__logo-description {
+  font-size: 12px;
+  color: rgb(136, 136, 136);
+}
+
+.nav__link {
+  padding: 20px 24px 22px 18px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(136, 136, 136);
+}
+
+.nav__link:hover {
+  background-color: red;
+  border-radius: 4px;
+  color: #fff;
+}
+/* ---------------------------------------------------------banner------------------------------------------- */
+.banner {
+  display: grid;
+  grid-template-columns: 586px 586px;
+  grid-template-rows: 220px 220px;
+  background-image: url(./images/background/banner.png);
+}
+
+.banner__card {
+  display: flex;
+  align-items: flex-end;
+}
+
+.banner__card-title {
+  padding: 5px;
+  color: #fff;
+  background-color: #222;
+  text-transform: uppercase;
+}
+
+.banner__card-title:hover {
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.card-first {
+  background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.555));
+}
+
+.card-second {
+  background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411));
+}
+
+.card-third {
+  background: linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.27));
+}
+/* ----------------------------------MAIN----------------------------------------------------------------------------------------- */
+.main__header {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(70, 70, 70);
+  text-transform: uppercase;
+}
+
+.header-desription {
+  color: rgb(136, 136, 136);
+  font-size: 18px;
+}
+
+.main__header-btn {
+  width: 230px;
+  height: 50px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(231, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main__body {
+  display: grid;
+  grid-template-columns: 586px 586px;
+  grid-template-rows: 200px 200px;
+}
+
+.body__card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.body-card--icon {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border: 2px solid rgb(160, 160, 160);
+  border-radius: 50%;
+}
+
+.card-icon {
+  position: absolute;
+  top: 44px;
+  left: 42px;
+}
+
+.body-card--content {
+  width: 406px;
+}
+
+.body-card--title {
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: rgb(70, 70, 70);
+  text-transform: uppercase;
+}
+
+.body-card--description {
+  font-size: 14px;
+  color: rgb(136, 136, 136);
+}
+
+/* ------------------------------------------------------------subscribe---------------------------------- */
+.subscribe {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(104, 104, 104);
+  border-radius: 5px;
+}
+
+.subscribe__title {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.subscribe__input {
+  padding-left: 10px;
+  height: 40px;
+  width: 340px;
+  font-size: 14px;
+  color: rgb(136, 136, 136);
+  border-radius: 5px;
+  border: none;
+}
+
+.subscribe__button {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  background: rgb(231, 0, 0);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* ----------------------------------------------------------------panel------------------------- */
+.panel {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.panel__card {
+  width: 271px;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 5px;
+}
+
+.panel__card-avatar {
+  margin-bottom: 30px;
+}
+
+.panel__body {
+  padding: 30px;
+}
+
+.panel__card-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(70, 70, 70);
+  text-transform: uppercase;
+}
+
+.panel__card-description {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: rgb(136, 136, 136);
+}
+
+.panel__card-button {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(231, 0, 0);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* --------------------------------------------footer------------------------------ */
+.footer {
+  padding: 50px 50px 40px 0px;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgb(197, 197, 197);
+}
+
+.footer__info-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(70, 70, 70);
+  text-transform: uppercase;
+}
+
+.footer__info-description {
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(136, 136, 136);
+}
+
+.footer__links {
+  margin-right: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(136, 136, 136);
+}
