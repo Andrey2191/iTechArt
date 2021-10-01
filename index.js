@@ -19,5 +19,3 @@ subscribeBtn.addEventListener("click", () => {
 menu.addEventListener("click", () => {
   menuLinks.classList.toggle("active");
 });
-
-console.log(menu);
