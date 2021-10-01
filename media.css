@@ -31,15 +31,25 @@
     left: 50px;
   }
 
-  .banner {
+  /* .banner {
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
+  } */
+
+  .banner {
+    display: grid;
+    grid-template-columns: 740px;
+    grid-template-rows: 460px 460px 460px 460px;
+    background: none;
   }
 
   .banner__card {
     height: 451px;
     width: 100%;
+    background-image: url(./images/background/banner.png);
+    background-size: 740px 460px;
+    border-radius: 5px;
   }
 
   .main__header {
@@ -102,16 +112,24 @@
     top: 18px;
     left: 45px;
   }
-  .banner {
+  /* .banner {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
+  } */
+
+  .banner {
+    display: grid;
+    grid-template-columns: 355px;
+    grid-template-rows: 220px 220px 220px 220px;
+    background: none;
   }
   .banner__card {
     height: 200px;
     width: 100%;
     background-image: url(./images/background/banner.png);
     background-size: 375px 200px;
+    border-radius: 5px;
   }
 
   .main__header {
