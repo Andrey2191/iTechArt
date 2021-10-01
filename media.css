@@ -31,12 +31,6 @@
     left: 50px;
   }
 
-  /* .banner {
-    margin-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-  } */
-
   .banner {
     display: grid;
     grid-template-columns: 740px;
@@ -112,11 +106,6 @@
     top: 18px;
     left: 45px;
   }
-  /* .banner {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  } */
 
   .banner {
     display: grid;
