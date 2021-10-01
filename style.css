@@ -9,7 +9,6 @@
 .wrapper {
   width: 1170px;
   margin: 0 auto;
-  /* background-color: aqua; */
 }
 
 .nav {
@@ -19,13 +18,10 @@
   justify-content: space-between;
   align-items: center;
 }
-.nav-btn {
-  display: none;
-}
 
 .nav-btn {
   position: relative;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   width: 80px;
