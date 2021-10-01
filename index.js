@@ -5,7 +5,7 @@ const menu = document.querySelector(".nav-btn");
 const menuLinks = document.querySelector(".nav__links");
 
 subscribeBtn.addEventListener("click", () => {
-  if (inputName.value === "" && inputEmail.value === "") {
+  if (inputName.value === "" || inputEmail.value === "") {
     alert("fill in the input fields");
   } else {
     alert(
