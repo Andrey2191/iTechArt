@@ -42,16 +42,18 @@
       </div>
       <div class="banner">
         <div class="banner__card card-first">
-          <div class="banner__card-title">It amet aenean dignis</div>
+          <a href="#" class="banner__card-title">It amet aenean dignis</a>
         </div>
         <div class="banner__card card-second">
-          <div class="banner__card-title">It amet orc</div>
+          <a href="#" class="banner__card-title">It amet orc</a>
         </div>
         <div class="banner__card card-third">
-          <div class="banner__card-title">It amet orc aenean</div>
+          <a href="#" class="banner__card-title">It amet orc aenean</a>
         </div>
         <div class="banner__card card-fourth">
-          <div class="banner__card-title">It amet orc aenean dignis lorem</div>
+          <a href="#" class="banner__card-title"
+            >It amet orc aenean dignis lorem</a
+          >
         </div>
       </div>
       <div class="main">
@@ -91,7 +93,7 @@
               <img
                 class="card-icon"
                 src="./images/icons/umbrella.png"
-                alt="cloud"
+                alt="umbrella"
               />
             </div>
             <div class="body-card--content">
@@ -107,7 +109,7 @@
               <img
                 class="card-icon"
                 src="./images/icons/wrench.png"
-                alt="cloud"
+                alt="wrench"
               />
             </div>
             <div class="body-card--content">
@@ -122,11 +124,7 @@
           </div>
           <div class="body__card">
             <div class="body-card--icon">
-              <img
-                class="card-icon"
-                src="./images/icons/gear.png"
-                alt="cloud"
-              />
+              <img class="card-icon" src="./images/icons/gear.png" alt="gear" />
             </div>
             <div class="body-card--content">
               <h2 class="body-card--title">
@@ -144,12 +142,12 @@
         <h2 class="subscribe__title">Donec nec jus</h2>
         <input
           type="text"
-          class="subscribe__input"
+          class="subscribe__input input-name"
           placeholder="your name here...."
         />
         <input
-          type="text"
-          class="subscribe__input"
+          type="email"
+          class="subscribe__input input-email"
           placeholder="your email here...."
         />
         <button class="subscribe__button">subscribe</button>
@@ -224,15 +222,21 @@
         <div class="footer__card">
           <div class="footer__info">
             <h2 class="footer__info-title">Designed By</h2>
-            <span class="footer__info-description"
-              >www.alltemplateneeds.com</span
+            <a
+              href="mailto:www.alltemplateneeds.com"
+              class="footer__info-description"
+              >www.alltemplateneeds.com</a
             >
           </div>
         </div>
         <div class="footer__card">
           <div class="footer__info">
             <h2 class="footer__info-title">Photos From</h2>
-            <span class="footer__info-description">www.wallpaperswide.com</span>
+            <a
+              href="mailto:www.wallpaperswide.com"
+              class="footer__info-description"
+              >www.wallpaperswide.com</a
+            >
           </div>
         </div>
         <div class="footer__card">
@@ -254,5 +258,6 @@
         </div>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
