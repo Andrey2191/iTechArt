@@ -16,6 +16,15 @@
   .wrapper {
     width: 768px;
   }
+  .nav {
+    width: 100%;
+
+    position: fixed;
+    z-index: 500;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+  }
 
   .nav__logo {
     margin-left: 10px;
@@ -24,14 +33,25 @@
   .nav__links {
     display: none;
   }
+  .active {
+    width: 678px;
+    position: absolute;
+    top: 16px;
+    left: 3px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    text-align: center;
+  }
 
   .nav-btn {
     display: block;
     top: 22px;
-    left: 50px;
+    left: 0px;
   }
 
   .banner {
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 740px;
     grid-template-rows: 460px 460px 460px 460px;
@@ -95,19 +115,34 @@
   .wrapper {
     width: 375px;
   }
+
+  .nav {
+    height: 80px;
+  }
   .nav__logo {
     margin-left: 10px;
   }
   .nav__links {
     display: none;
   }
+
+  .active {
+    width: 366px;
+    position: absolute;
+    top: 70px;
+    left: 3px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+  }
   .nav-btn {
     display: block;
     top: 18px;
-    left: 45px;
+    left: 5px;
   }
 
   .banner {
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 355px;
     grid-template-rows: 220px 220px 220px 220px;
