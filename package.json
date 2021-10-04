@@ -1,0 +1,23 @@
+{
+  "name": "itechart",
+  "version": "1.0.0",
+  "description": "webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrey2191/iTechArt.git"
+  },
+  "author": "Andrei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrey2191/iTechArt/issues"
+  },
+  "homepage": "https://github.com/Andrey2191/iTechArt#readme",
+  "devDependencies": {
+    "webpack": "^5.56.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
