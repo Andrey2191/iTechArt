@@ -1,3 +1,6 @@
+import "./style.css";
+import "./media.css";
+
 const subscribeBtn = document.querySelector(".subscribe__button");
 const inputName = document.querySelector(".input-name");
 const inputEmail = document.querySelector(".input-email");
